@@ -6,13 +6,17 @@
 </template>
 
 <script>
-import "nes.css/css/nes.min.css";
-
 export default {
 
 }
 </script>
 
-<style scoped>
-  @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+<style src='nes.css/css/nes.min.css'></style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+  * {
+    font-family: 'Press Start 2P';
+  }
 </style>
