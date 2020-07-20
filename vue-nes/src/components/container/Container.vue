@@ -1,13 +1,13 @@
 <template>
   <div class="nes-container with-title is-centered">
-    <h2 class="title"><a :href="link">{{ title }}</a></h2>
-    <div class="nes-badge is-splited">
+    <h2 v-if="title" class="title"><a :href="link">{{ title }}</a></h2>
+    <div v-if="platform || year" class="nes-badge is-splited">
       <span class="is-dark">{{ platform }}</span>
       <span class="is-success">{{ year }}</span>
     </div>
-    <img :src="image" />
-    <p>{{ body }}</p>
-    <a class="nes-btn is-primary" :href="link">Press Start</a>
+    <img v-if="image" :src="image" />
+    <p v-if="body">{{ body }}</p>
+    <a v-if="link" class="nes-btn is-primary" :href="link">Press Start</a>
   </div>
 </template>
 

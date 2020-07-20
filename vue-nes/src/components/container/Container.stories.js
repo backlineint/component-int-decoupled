@@ -1,5 +1,6 @@
 import Container from './Container.vue';
 import data  from './Container.json';
+import imageFile from '../../assets/mario.jpg';
 
 export default { title: 'Container' };
 
@@ -10,7 +11,7 @@ export const defaultComponent = () => ({
       title="${data.title}"
       platform="${data.platform}"
       year="${data.year}"
-      image="${data.image}"
+      image="${imageFile}"
       body="${data.body}"
       link="${data.link}"
     />`
