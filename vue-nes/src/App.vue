@@ -1,26 +1,36 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Grid>
+      <div v-for="index in 3" :key="index">
+        <Container
+          title="Super Mario Galaxy 2"
+          platform="Wii"
+          year="2010"
+          :image="imageFile"
+          body="Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii."
+          link="https://google.com"
+        />
+      </div>
+    </Grid>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Grid from './components/grid/Grid';
+import Container from './components/container/Container';
+import imageFile from './assets/mario.jpg';
 
 export default {
   name: 'App',
+  data: function() {
+    return {
+      imageFile
+    }
+  },
   components: {
-    HelloWorld
+    Grid,
+    Container
   }
 }
 </script>
 
-<style>
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

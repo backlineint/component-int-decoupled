@@ -1,5 +1,5 @@
 import Container from './Container.vue';
-import data  from './Container.json';
+import data from './Container.json';
 import imageFile from '../../assets/mario.jpg';
 
 export default { title: 'Container' };

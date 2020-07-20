@@ -13,14 +13,15 @@
 
 <script>
 export default {
-  props: [
-    'title',
-    'link',
-    'platform',
-    'year',
-    'image',
-    'body'
-  ]
+  name: 'Container',
+  props: {
+    title: String,
+    link: String,
+    platform: String,
+    year: String,
+    image: String,
+    body: String
+  }
 }
 </script>
 
