@@ -1,0 +1,23 @@
+uuid: 974ecdfe-9172-4bf3-9ef3-d7625a4428b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.game
+id: node.game.field_year
+field_name: field_year
+entity_type: node
+bundle: game
+label: Year
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

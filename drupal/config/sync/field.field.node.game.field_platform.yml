@@ -1,0 +1,19 @@
+uuid: b8ac73ba-8b54-47ea-8c2e-d45d180ba70d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_platform
+    - node.type.game
+id: node.game.field_platform
+field_name: field_platform
+entity_type: node
+bundle: game
+label: Platform
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

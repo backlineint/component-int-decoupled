@@ -1,3 +1,5 @@
 .DS_Store
 
 drupal/vendor
+
+drupal8.*.sql.gz
