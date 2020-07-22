@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <p>ContainerBlock - gets data from JSON:API</p>
+    <p>ContainerBlock - gets data from JSON:API based on uuid prop</p>
     <ContainerBlock
       uuid="a1b06ea3-445f-4068-b84f-816d0e269706"
     />
