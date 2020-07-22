@@ -18,9 +18,9 @@ core
 /vendor/
 
 # Ignore configuration files that may contain sensitive information.
-# Add settings.php to version control simplified setup
+# Add settings.php and services.yml to version control simplified setup
 # sites/*/settings*.php
-sites/*/services*.yml
+# sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
 sites/*/files

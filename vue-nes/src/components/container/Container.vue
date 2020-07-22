@@ -6,7 +6,7 @@
       <span class="is-success">{{ year }}</span>
     </div>
     <img v-if="image" :src="image" />
-    <p v-if="body">{{ body }}</p>
+    <p v-if="body" v-html="body">{{ body }}</p>
     <a v-if="link" class="nes-btn is-primary" :href="link">Press Start</a>
   </div>
 </template>

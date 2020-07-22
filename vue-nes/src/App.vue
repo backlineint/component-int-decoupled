@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <p>ContainerBlock - gets data from JSON:API</p>
+    <ContainerBlock
+      uuid="a1b06ea3-445f-4068-b84f-816d0e269706"
+    />
+    <p>Grid - currently uses example content</p>
     <Grid>
       <div v-for="index in 3" :key="index">
         <Container
@@ -17,6 +22,7 @@
 
 <script>
 import Grid from './components/grid/Grid';
+import ContainerBlock from './components/container/ContainerBlock';
 import Container from './components/container/Container';
 import imageFile from './assets/mario.jpg';
 
@@ -29,6 +35,7 @@ export default {
   },
   components: {
     Grid,
+    ContainerBlock,
     Container
   }
 }
