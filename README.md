@@ -15,6 +15,8 @@ From the root of the repository run:
 
 `./scripts/install.sh`
 
+Default admin user account will be admin/admin
+
 ## Vue
 
 A small Vue app is available within /vue-nes
@@ -22,6 +24,8 @@ A small Vue app is available within /vue-nes
 For initial setup, run `npm install` (this will have run as part of the install script)
 
 To serve the app, run `npm run serve`
+
+To launch Storybook, run `npm run stroybook`
 
 ## Integration Example Branches
 
