@@ -1,0 +1,8 @@
+nes-container:
+  version: 1.x
+  css:
+    theme:
+      https://fonts.googleapis.com/css?family=Press+Start+2P: { type: external }
+  js:
+    https://unpkg.com/vue: { type: external }
+    js/nes-container.min.js: {}

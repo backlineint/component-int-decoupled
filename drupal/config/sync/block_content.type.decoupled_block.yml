@@ -1,0 +1,8 @@
+uuid: 7d2db961-84c3-4aad-a42e-accec88df8ce
+langcode: en
+status: true
+dependencies: {  }
+id: decoupled_block
+label: 'Decoupled Block'
+revision: 0
+description: 'Renders a Game node using the container component and data returned from JSON:API'

@@ -1,0 +1,28 @@
+uuid: 11d3e390-43fd-4785-ae8e-9011ef033849
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.decoupled_block
+    - field.storage.block_content.field_game
+    - node.type.game
+id: block_content.decoupled_block.field_game
+field_name: field_game
+entity_type: block_content
+bundle: decoupled_block
+label: Game
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      game: game
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

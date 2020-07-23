@@ -1,0 +1,31 @@
+uuid: 4c8b706e-44ba-4c72-a81d-61af9a4b4fee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.decoupled_block
+    - field.field.block_content.decoupled_block.field_game
+id: block_content.decoupled_block.default
+targetEntityType: block_content
+bundle: decoupled_block
+mode: default
+content:
+  field_game:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

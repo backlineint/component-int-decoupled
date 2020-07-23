@@ -1,0 +1,21 @@
+uuid: c69bb76b-2ace-45ee-96df-4d5db6ccc2ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.decoupled_block
+    - field.field.block_content.decoupled_block.field_game
+id: block_content.decoupled_block.default
+targetEntityType: block_content
+bundle: decoupled_block
+mode: default
+content:
+  field_game:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }
