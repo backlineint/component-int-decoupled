@@ -34,6 +34,7 @@ export default {
 <style scoped>
   .nes-container {
     height: 100%;
+    font-family: 'Press Start 2p';
   }
 
   img {

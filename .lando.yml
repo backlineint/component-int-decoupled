@@ -1,4 +1,8 @@
 name: decoupled-component-sandbox
 recipe: drupal8
-config:
-  webroot: drupal/web
+services:
+  appserver:
+    webroot: drupal/web
+    xdebug: false
+    config:
+      php: .vscode/php.ini
