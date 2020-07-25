@@ -7,8 +7,10 @@ module:
   ckeditor: 0
   color: 0
   comment: 0
+  component: 0
   config: 0
   contact: 0
+  container_component: 0
   contextual: 0
   datetime: 0
   dblog: 0
@@ -25,6 +27,8 @@ module:
   history: 0
   image: 0
   jsonapi: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0

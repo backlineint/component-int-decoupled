@@ -1,0 +1,17 @@
+name: NES Container
+description: 'Example component showing the form config options available'
+css:
+  https://fonts.googleapis.com/css?family=Press+Start+2P: { type: external }
+js:
+  https://unpkg.com/vue: { type: external }
+  nes-container.min.js: {}
+cache:
+  max-age: 60
+form_configuration:
+  game:
+    type: 'entity_autocomplete'
+    title: 'Game'
+    target_type: 'node'
+    selection_settings:
+      target_bundles:
+        - 'game'
